@@ -1,5 +1,5 @@
 
-crearMapa([9.748917, -83.753428], 8);
+crearMapa([9.927934834483523, -84.09429120195715], 8);
 
 function crearMapa(coord, zoom) {
     //limpiar el cotenedor de mapa
@@ -19,7 +19,7 @@ function crearMapa(coord, zoom) {
     }).addTo(mapa);
 
     var marcador1 = L.marker(coord).addTo(mapa);
-    var marcador2 = L.marker([9.927934834483523, -84.09429120195715]).addTo(mapa);
+    var marcador2 = L.marker([10.64465243222477, -85.42935960744244]).addTo(mapa);
     var marcador3 = L.marker([9.83471504861444, -83.92040296292701]).addTo(mapa);
     var marcador4 = L.marker([9.977874376838942, -84.82938784754447]).addTo(mapa);
     var marcador5 = L.marker([10.016333016998823, -84.21514589234808]).addTo(mapa);
