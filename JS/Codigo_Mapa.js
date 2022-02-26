@@ -26,7 +26,7 @@ function crearMapa(coord, zoom) {
     var marcador6 = L.marker([9.998206880603005, -84.11901171084698]).addTo(mapa);
     var marcador7 = L.marker([9.991461727554787, -83.04063337423054]).addTo(mapa);
     marcador1.bindPopup(`
-                        <h1>Guanacaste</h1> 
+                        <h1>Guanacaste</h1>
                         <p>Costa Rica</p>
                         `);
     marcador2.bindPopup(`
