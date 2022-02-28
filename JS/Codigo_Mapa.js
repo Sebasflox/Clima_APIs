@@ -26,8 +26,6 @@ function crearMapa(coord, zoom) {
 }
 
 function refresMap(provincia){
-
-    mapa.remoLayer(Alajuela_m);
     
     if (provincia == "Alajuela"){
         var Alajuela_m = L.marker([10.015994926927956, -84.21445924689671]).addTo(mapa);
