@@ -16,6 +16,4 @@ function resfreshClima(provincia){
         console.log(data);
         document.getElementById("clima").innerHTML=data["weather"][0]["description"];
     });
-
-
 }
