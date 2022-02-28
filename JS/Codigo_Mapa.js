@@ -1,6 +1,7 @@
 
 crearMapa([9.927934834483523, -84.09429120195715], 8);
 
+document.getElementById("contenedorMapa").style.display = "none";
 
 
 var mapa;
