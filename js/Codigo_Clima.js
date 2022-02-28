@@ -34,7 +34,10 @@ function resfreshClima(provincia){
     $.getJSON(url, function(data) {
         console.log(data);
         document.getElementById("clima").innerHTML=data["weather"][0]["description"];
-        document.getElementById("tempa").innerHTML=date["main"]["temp"];
+        document.getElementById("tempa").innerHTML=data["main"]["temp"];
+        document.getElementById("humedad").innerHTML=data["main"]["humidity"];
+        document.getElementById("viento").innerHTML=data["wind"]["speed"];
+
     });
     console.log(contenido);
 }
