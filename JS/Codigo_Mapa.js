@@ -1,10 +1,9 @@
 
 crearMapa([9.927934834483523, -84.09429120195715], 8);
 
-document.getElementById("contenedorMapa").style.display = "none";
+
 
 var mapa;
-
 
 function crearMapa(coord, zoom) {
     //limpiar el cotenedor de mapa
@@ -27,6 +26,9 @@ function crearMapa(coord, zoom) {
 
 function refresMap(provincia){
     
+    mapa.remove();
+    crearMapa([9.927934834483523, -84.09429120195715], 8);
+
     if (provincia == "Alajuela"){
         var Alajuela_m = L.marker([10.015994926927956, -84.21445924689671]).addTo(mapa);
         Alajuela_m.bindPopup(`
@@ -76,5 +78,6 @@ function refresMap(provincia){
                             <p>Costa Rica</p>
                             `);
     }
-    
+
+
 }
