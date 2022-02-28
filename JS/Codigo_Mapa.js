@@ -6,7 +6,6 @@ document.getElementById("contenedorMapa").style.display = "none";
 var mapa;
 
 
-
 function crearMapa(coord, zoom) {
     //limpiar el cotenedor de mapa
     $(".mapaContainer").html(`<div id="miMapa"></div>`);
@@ -36,9 +35,19 @@ function crearMapa(coord, zoom) {
 }
 
 function refresMap(provincia){
-
-    console.log("F");
-
-
+    if (provincia == "Alajuela"){
+        var Alajuela_m = L.marker(10.015994926927956).addTo(-84.21445924689671);
+        Alajuela_m.bindPopup(`
+                        <h1>AJ</h1>
+                        <p>Costa Rica</p>
+                        `);
+    }
+    if (provincia == "Cartago"){
+        var Cartago_m = L.marker(9.86302143845792).addTo(-83.91688551722636);
+        Cartago_m.bindPopup(`
+                        <h1>CT</h1>
+                        <p>Costa Rica</p>
+                        `);
+    }
 
 }
