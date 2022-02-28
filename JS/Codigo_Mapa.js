@@ -33,49 +33,49 @@ function refresMap(provincia){
     if (provincia == "Alajuela"){
         var Alajuela_m = L.marker([10.015994926927956, -84.21445924689671]).addTo(mapa);
         Alajuela_m.bindPopup(`
-                        <h1>AJ</h1>
-                        <p>Costa Rica</p>
+                        <h1>Alajuela</h1>
+                        <p>Volcan<br>Arenal<br>Estadio</p>
                         `);
     }
     if (provincia == "Cartago"){
         var Cartago_m = L.marker([9.86302143845792, -83.91688551722636]).addTo(mapa);
         Cartago_m.bindPopup(`
-                        <h1>CT</h1>
+                        <h1>Cartago</h1>
                         <p>Costa Rica</p>
                         `);
     }
     if (provincia == "Heredia"){
-        var Heredia_m = L.marker([10.473689889599, -84.01708618549425]).addTo(mapa);
+        var Heredia_m = L.marker([9.998128242157756, -84.11977674989349]).addTo(mapa);
         Heredia_m.bindPopup(`
-                        <h1>AJ</h1>
+                        <h1>Heredia</h1>
                         <p>Costa Rica</p>
                         `);
     }
     if (provincia == "Limon"){
         var Limon_m = L.marker([9.990157612958788, -83.04023875138913]).addTo(mapa);
         Limon_m.bindPopup(`
-                        <h1>CT</h1>
+                        <h1>Limon</h1>
                         <p>Costa Rica</p>
                         `);
     }
     if (provincia == "Puntarenas"){
         var Puntarenas_m = L.marker([9.982056305799318, -84.83043792326303]).addTo(mapa);
         Puntarenas_m.bindPopup(`
-                        <h1>AJ</h1>
+                        <h1>Puntarenas</h1>
                         <p>Costa Rica</p>
                         `);
     }
     if (provincia == "Guanacaste"){
         var Guanacaste_m = L.marker([10.629545059416854, -85.44593999484933]).addTo(mapa);
         Guanacaste_m.bindPopup(`
-                        <h1>CT</h1>
+                        <h1>Guanacaste</h1>
                         <p>Costa Rica</p>
                         `);
     }
     if(provincia == "San_Jose"){
         var San_Jose_m = L.marker([9.938543933578808, -84.0969633937918]).addTo(mapa);
         San_Jose_m.bindPopup(`
-                            <h1>SJ</h1>
+                            <h1>San José</h1>
                             <p>Costa Rica</p>
                             `);
     }
