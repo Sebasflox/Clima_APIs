@@ -39,5 +39,4 @@ function resfreshClima(provincia){
         document.getElementById("viento").innerHTML=data["wind"]["speed"];
 
     });
-    console.log(contenido);
 }
