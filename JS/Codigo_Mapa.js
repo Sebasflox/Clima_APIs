@@ -1,8 +1,6 @@
-
 crearMapa([9.927934834483523, -84.09429120195715], 8);
 
 document.getElementById("contenedorMapa").style.display = "none";
-
 
 var mapa;
 
@@ -84,7 +82,7 @@ function refresMap(provincia){
                         <p>EcoMuseo de las minas de abangares</p>
                         `);
     }
-    if(provincia == "San_Jose"){
+    if(provincia == "San Jose"){
         var San_Jose_m = L.marker([9.938543933578808, -84.0969633937918]).addTo(mapa);
         San_Jose_m.bindPopup(`
                         <h1>San José</h1>
